@@ -3,7 +3,7 @@ FROM golang:alpine
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
-RUN add apk git
+RUN apk add git
 
 RUN go build -o mini .
 
