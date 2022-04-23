@@ -1,0 +1,10 @@
+
+create ec2 --> buat instantce (key.pem)
+ssh
+docker install (sekali)
+git clone (sekali)
+docker compose up
+
+
+ssh
+git pull
